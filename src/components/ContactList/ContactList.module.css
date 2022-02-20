@@ -1,0 +1,46 @@
+.ContactList {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ContactList li {
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 7px 0;
+}
+
+.ContactList li span {
+    font-size: 13px;
+    color: #8b8ead;
+}
+
+.ContactList li button {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    width: 60px;
+    height: 24px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1;
+    color: #000000;
+    background-color: #e2e2e4;
+    border: 1px solid #cbcace;
+    border-radius: 5px;
+}
+
+
+.ContactList li button:hover, 
+.ContactList li button:focus {
+    color: #ffffff;
+    background-color: #00adb9;
+    border: 1px solid #00949e;
+        transition: background-color 250ms,
+        box-shadow 250ms,
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
